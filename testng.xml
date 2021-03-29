@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="All Test Suite">
+    <parameter name="browserDriverUrl" value="D:\IdeaProjects\xiaofaUI\drivers\chromedriver.exe"/>
+    <parameter name="url" value="https://t-customer-manager.aegis-info.com/login"/>
+    <parameter name="username" value="15214337054"/>
+    <parameter name="pwd" value="111111"/>
+    <test verbose="2" preserve-order="true" name="D:/IdeaProjects/xiaofaUI">
+        <classes>
+            <class name="com.aegismanager.testcase.LoginTest">
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<map>
+
+    <page pageName="loginPage">
+        <!--Locator lists -->
+        <locator type="xpath" timeOut="30" value="//input[@type='text']">登录输入账号框</locator>
+        <locator type="xpath" timeOut="30" value="//input[@type='password']">登录输入密码框</locator>
+        <locator type="xpath" timeOut="30" value="//button[@type='button']">登录</locator>
+        <locator type="xpath" timeOut="30" value="//div[@class='el-message el-message--error']//p[@class='el-message__content']">必填项提示</locator>
+        <locator type="xpath" timeOut="30" value="//div[@class='el-notification right']//p[1]">用户名或密码错误提示</locator>
+
+    </page>
+    <page pageName="mainPage"/>
+
+</map>
