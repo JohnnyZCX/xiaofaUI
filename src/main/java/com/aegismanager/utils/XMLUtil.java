@@ -24,7 +24,7 @@ public class XMLUtil {
      */
     public static HashMap<String, Locator> readXMLDocument(String xmlUrl, String pageName) throws Exception {
         Logger log = Logger.getLogger(XMLUtil.class);
-        HashMap<String, Locator> locatorMap = new HashMap<>();
+        HashMap<String, Locator> locatorMap = new HashMap();
         File file = new File(xmlUrl);
         if (!file.exists()) {
             log.error("can't find " + xmlUrl);
